@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en GridItem Deberia mostrar un error si no aparece el titulo 1`] = `undefined`;
