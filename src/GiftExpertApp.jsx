@@ -15,7 +15,7 @@ const onAddCategory = (newCategory) => {
 }
   return (
     <>
-      <h1>GiftExpertApp</h1>
+      <h1 className="title">Gift Search App</h1>
       <AddCategory 
         onNewCategory = {(value) => onAddCategory(value) }
       />

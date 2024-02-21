@@ -1,6 +1,6 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
-    background-color: rgb(234, 234, 234);
+    background-color: rgb(8, 8, 8);
   }
   
   body {
@@ -8,57 +8,65 @@
   }
   
   input {
-    background-color: white;
-    border-radius: 5px;
-    border: 1px solid rgb(97, 32, 158);
-    color: black;
-    font-size: 1.2rem;
+    background-color: rgb(122, 119, 119);
+    border-radius: 15px;
+    border: 1px solid rgb(13, 13, 13);
+    color: rgb(238, 17, 17);
+    font-size: 2rem;
     outline: none;
     padding: 10px 15px;
     width: 100%;
+    
   }
   
   h2 {
     font-size: 1.5rem;
+    color: aliceblue;
   }
   
   h3 {
-    font-size: 3rem;
-    margin-bottom: 5px;
+    color: aliceblue;
+    font-size: 4rem;
+    margin-bottom: 15px;
   }
   
   .card-grid {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:space-between;
   }
   
   .card {
+    color: darkkhaki;
+    size: 3em;
     align-content: center;
     align-items: center;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
-    display: flex;
-    flex-direction: column;
-    height: 0%;  
+    padding: 10px;
+    max-width: 800px;
+    margin:1 auto;
+    display: block;
+    gap: 0 35px;
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    overflow: hidden;
+    align-items: start; /* Alinea el contenido en la parte superior */
+  
   }
   
   .card p {
-    background-color: white;
-    flex: 1;
-    font-size: 1.5rem;
-    margin-top: 5px;
-    padding: 5px 20px 0px 20px;
-    text-align: center;
+   
+ width: 180px;
   }
   
   .card img {
-    width: 100%;
+    width: 300px;
+    height: 200px;
   }
   
+  .title
+  {
+    color: bisque;
+    align-content: center;
+    font-size: 4rem;
+    text-align: center;
+  }
